@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 type PriceCardProps = {
     title: string;
@@ -56,7 +57,7 @@ export default function InfoPage(): React.ReactElement {
                             </p>
 
                             <div className="mt-3 sm:mt-4 flex flex-col sm:flex-row gap-2 sm:gap-3">
-                                <button className="bg-teal-400 hover:bg-teal-500 active:scale-95 text-white py-2 px-4 rounded-lg font-extrabold text-sm sm:text-base transition">Comenzar gratis</button>
+                                <button className="bg-teal-400 hover:bg-teal-500 active:scale-95 text-white py-2 px-4 rounded-lg font-extrabold text-sm sm:text-base transition"><Link to="/register"> Comenzar gratis</Link></button>
                                 <button className="bg-transparent text-slate-900 border border-slate-200 py-2 px-4 rounded-lg font-extrabold text-sm sm:text-base hover:bg-slate-50 active:scale-95 transition">Ver demo</button>
                             </div>
 
