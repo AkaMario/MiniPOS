@@ -9,12 +9,12 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/MiniPOS">
       <Routes>
-        <Route path="MiniPOS/" element={<InfoPage />} />
-        <Route path='MiniPOS/login' element={<Login />} />
-        <Route path='MiniPOS/register' element={<Register />} />
-        <Route path='MiniPOS/home' element={<Home />} />
+        <Route path="/" element={<InfoPage />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
+        <Route path='/home' element={<Home />} />
       </Routes>
     </BrowserRouter>
     </>

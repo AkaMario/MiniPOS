@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: 'http://akamario.github.io/MiniPOS/',
+  base: '/MiniPOS/',
 })
