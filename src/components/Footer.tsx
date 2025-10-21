@@ -8,10 +8,10 @@ function Footer() {
                     </div>
 
                     <div className="flex gap-4 items-center">
-                        <a href="#contact" className="text-slate-900 no-underline font-semibold">
+                        <a href="https://www.linkedin.com/in/mario-uparela-posada-18661632b/" className="text-slate-900 no-underline font-semibold">
                             Contacto
                         </a>
-                        <a href="#tos" className="text-slate-500 no-underline">
+                        <a href="" className="text-slate-500 no-underline">
                             Términos
                         </a>
                         <small className="text-slate-400">© {new Date().getFullYear()} Inventario</small>
